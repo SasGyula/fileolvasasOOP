@@ -26,6 +26,13 @@ public class FileOlvasas {
         for (Ember ember : emberek) {
             System.out.println(ember);
         }
+        
+        int i = 0;
+        while(!(emberek.get(i).getCim().equals("Bp"))){
+            i++;
+        }
+        System.out.println("Ki lakik budapesten?");
+        System.out.println(emberek.get(i));
     }
     
 }
